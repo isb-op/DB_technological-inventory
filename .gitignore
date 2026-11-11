@@ -1,0 +1,15 @@
+# Publicar somente o código e os arquivos explicitamente permitidos.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/Iniciar.cmd
+!/aplicativo/
+/aplicativo/*
+!/aplicativo/*.py
+/aplicativo/test_*.py
+# Geração de documentos no modelo específico da empresa: somente local.
+/aplicativo/termos.py
+!/aplicativo/assets/
+/aplicativo/assets/*
+!/aplicativo/assets/gatinho.gif
